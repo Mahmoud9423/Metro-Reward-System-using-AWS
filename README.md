@@ -32,36 +32,40 @@ main.tf
 - Install [Terraform](https://www.terraform.io/downloads)
 - Configure your AWS credentials (via `aws configure` or environment variables)
 
-## 🚀 Quick Deployment
-
-Run the following commands to initialize Terraform, review the plan, and apply the infrastructure:
-
-```bash
-terraform init && terraform plan && terraform apply
-
-## 🔁 Destroy Infrastructure
-
+🔁 Destroy Infrastructure
 To remove all resources created by Terraform, run the following command:
+
 terraform destroy
+🔍 Monitoring and Notifications
+CloudWatch Alarms monitor key metrics such as CPU utilization.
 
----
+SNS Topics send alerts via email or SMS when alarms are triggered.
 
-## 🔍 Monitoring and Notifications
+Alarm thresholds and notification recipients can be customized within the Terraform configuration.
 
-- CloudWatch Alarms monitor key metrics such as CPU utilization.
-- SNS Topics send alerts via email or SMS when alarms are triggered.
-- Alarm thresholds and notification recipients can be customized within the Terraform configuration.
-
----
-
-## ✅ Outputs
-
+✅ Outputs
 After deployment, Terraform provides useful outputs, including:
 
-- Load Balancer DNS name
-- Auto Scaling Group name
-- EC2 instance details
+Load Balancer DNS name
 
+Auto Scaling Group name
+
+EC2 instance details
+
+yaml
+Copy
+Edit
+
+---
+
+This version fixes:
+
+- Proper closing of code blocks (triple backticks)
+- Separate sections with horizontal rules `---`
+- Clear Markdown headings
+- Correct indentation and formatting for readability
+
+You can paste this directly in your `README.md`. Let me know if you want me to generate a sample
 
 
 
