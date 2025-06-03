@@ -62,22 +62,19 @@ Follow these commands to deploy and manage your Terraform infrastructure.
 
 ---
 
-### 1. Initialize Terraform
-```bash
+# 1. Initialize Terraform
 terraform init
 
-2. Plan Terraform Changes
+# 2. Plan Terraform Changes
 terraform plan
 
-3. Apply Terraform Changes
-You'll be prompted to confirm:
+# 3. Apply Terraform Changes (you'll be prompted to confirm)
 terraform apply
 
-
-4. Destroy the Infrastructure
+# 4. Destroy the Infrastructure
 terraform destroy
 
-5. Access the Application Load Balancer (ALB)
+# 5. Access the Application Load Balancer (ALB)
 http://pezio-alb-1593375264.me-central-1.elb.amazonaws.com/
 
 
