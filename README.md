@@ -27,6 +27,7 @@ main.tf
 ---
 
 🔍 Monitoring and Notifications
+
 CloudWatch Alarms monitor key metrics such as CPU utilization.
 
 SNS Topics send alerts via email or SMS when alarms are triggered.
@@ -50,20 +51,25 @@ EC2 instance details
 
 ### 2. Deployment Commands
 
-Run the following commands in your terminal:
+Initialize Terraform:
 
 ```bash
-# Initialize Terraform
 terraform init
+Plan Terraform changes:
 
-# Review the execution plan
+bash
+
 terraform plan
+Apply Terraform changes (you’ll be prompted to confirm):
 
-# Apply the changes (you'll be prompted for confirmation)
+bash
+
 terraform apply
+To destroy the infrastructure, run:
 
-# To destroy the infrastructure when needed, run:
-# terraform destroy
+bash
+
+terraform destroy
 
 
 
