@@ -1,4 +1,8 @@
+# SSH private keys
 *.pem
-terraform.tfstate*
+
+# Terraform files
+terraform.tfstate
+terraform.tfstate.backup
 .terraform/
 .terraform.lock.hcl
