@@ -75,8 +75,6 @@ terraform apply
 terraform destroy
 
 # 5. Access the Application Load Balancer (ALB)
-http://pezio-alb-1593375264.me-central-1.elb.amazonaws.com/
-
 
 
 
