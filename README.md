@@ -57,22 +57,22 @@ Initialize Terraform:
 terraform init
 Plan Terraform changes:
 
-bash
-
+```bash
+Copy
+Edit
 terraform plan
 Apply Terraform changes (you’ll be prompted to confirm):
 
-bash
-
+```bash
+Copy
+Edit
 terraform apply
 To destroy the infrastructure, run:
 
-bash
-
+```bash
+Copy
+Edit
 terraform destroy
-
-
-
 
 
 
