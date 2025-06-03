@@ -26,28 +26,6 @@ main.tf
 
 ---
 
-## 🚀 How to Deploy
-
-### 1. **Prerequisites**
-- Install [Terraform](https://www.terraform.io/downloads)
-- Configure your AWS credentials (via `aws configure` or environment variables)
-
-### 2. **Commands**
-
-Run the following commands to initialize, plan, apply, destroy, and exit bash:
-
-```bash
-terraform init
-&& terraform plan
-&& terraform apply
-
-# To destroy the infrastructure, run:
-terraform destroy
-
-# To exit the bash shell, type:
-exit
-
-
 🔍 Monitoring and Notifications
 CloudWatch Alarms monitor key metrics such as CPU utilization.
 
@@ -63,6 +41,35 @@ Load Balancer DNS name
 Auto Scaling Group name
 
 EC2 instance details
+
+## 🚀 How to Deploy
+
+### 1. Prerequisites
+- Install [Terraform](https://www.terraform.io/downloads)
+- Configure your AWS credentials (`aws configure` or environment variables)
+
+### 2. Deployment Commands
+
+Run the following commands in your terminal:
+
+```bash
+# Initialize Terraform
+terraform init
+
+# Review the execution plan
+terraform plan
+
+# Apply the changes (you'll be prompted for confirmation)
+terraform apply
+
+# To destroy the infrastructure when needed, run:
+# terraform destroy
+
+
+
+
+
+
 
 
 
