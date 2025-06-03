@@ -34,13 +34,19 @@ main.tf
 
 ### 2. **Commands**
 
-Run the following commands to initialize, plan, apply, and destroy the infrastructure:
+Run the following commands to initialize, plan, apply, destroy, and exit bash:
 
 ```bash
-terraform init && terraform plan && terraform apply
+terraform init
+&& terraform plan
+&& terraform apply
 
 # To destroy the infrastructure, run:
 terraform destroy
+
+# To exit the bash shell, type:
+exit
+
 
 🔍 Monitoring and Notifications
 CloudWatch Alarms monitor key metrics such as CPU utilization.
