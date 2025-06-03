@@ -39,5 +39,31 @@ Run the following commands to initialize Terraform, review the plan, and apply t
 ```bash
 terraform init && terraform plan && terraform apply
 
+## 🔁 Destroy Infrastructure
+
+To remove all resources created by Terraform, run the following command:
+terraform destroy
+
+---
+
+## 🔍 Monitoring and Notifications
+
+- CloudWatch Alarms monitor key metrics such as CPU utilization.
+- SNS Topics send alerts via email or SMS when alarms are triggered.
+- Alarm thresholds and notification recipients can be customized within the Terraform configuration.
+
+---
+
+## ✅ Outputs
+
+After deployment, Terraform provides useful outputs, including:
+
+- Load Balancer DNS name
+- Auto Scaling Group name
+- EC2 instance details
+
+
+
+
 
 
