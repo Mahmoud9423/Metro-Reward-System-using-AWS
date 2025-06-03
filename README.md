@@ -32,30 +32,12 @@ main.tf
 - Install [Terraform](https://www.terraform.io/downloads)
 - Configure your AWS credentials (via `aws configure` or environment variables)
 
-### 2. **Initialize the project**
-```bash
-terraform init
-### 🚀 Quick Deployment
+## 🚀 Quick Deployment
+
+Run the following commands to initialize Terraform, review the plan, and apply the infrastructure:
 
 ```bash
- terraform plan && terraform apply
-
-Monitoring and Notifications
-CloudWatch Alarms track key metrics like CPU utilization.
-
-SNS Topics send alerts to email or SMS when alarms are triggered.
-
-You can customize thresholds and recipients in the Terraform code.
-
-✅ Outputs
-After deployment, Terraform provides useful outputs such as:
-
-Load Balancer DNS
-
-Auto Scaling Group name
-
-EC2 instance information
-
+terraform init && terraform plan && terraform apply
 
 
 
