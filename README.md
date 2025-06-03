@@ -43,6 +43,13 @@ Auto Scaling Group name
 
 EC2 instance details
 
+## Deployment Diagram
+
+Here is the deployment diagram:
+
+![Blank Board](Blank%20board%20%283%29.png)
+
+
 ## 🚀 How to Deploy
 
 ### 1. Prerequisites
