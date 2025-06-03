@@ -56,30 +56,29 @@ Here is the deployment diagram:
 - Install [Terraform](https://www.terraform.io/downloads)
 - Configure your AWS credentials (`aws configure` or environment variables)
 
-### 2. Deployment Commands
+## 🚀 Deployment Commands
 
-Initialize Terraform:
+Follow these commands to deploy and manage your Terraform infrastructure.
 
+---
+
+### 1. Initialize Terraform
 ```bash
 terraform init
-Plan Terraform changes:
 
-```bash
-Copy
-Edit
+2. Plan Terraform Changes
 terraform plan
-Apply Terraform changes (you’ll be prompted to confirm):
 
-```bash
-Copy
-Edit
+3. Apply Terraform Changes
+You'll be prompted to confirm:
 terraform apply
-To destroy the infrastructure, run:
 
-```bash
-Copy
-Edit
+
+4. Destroy the Infrastructure
 terraform destroy
+
+5. Access the Application Load Balancer (ALB)
+http://pezio-alb-1593375264.me-central-1.elb.amazonaws.com/
 
 
 
