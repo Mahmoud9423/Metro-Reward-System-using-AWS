@@ -47,7 +47,7 @@ EC2 instance details
 
 ## AWS Architecture
 
-![AWS Architecture](https://github.com/Mahmoud9423/Metro-Reward-System-using-AWS/blob/main/AWS.png?raw=true)
+![AWS Architecture](https://github.com/Mahmoud9423/Metro-Reward-System-using-AWS/blob/main/AWS%20(3).png)
 
 
 
