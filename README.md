@@ -78,16 +78,22 @@ The entire infrastructure is defined using **Terraform**, ensuring reproducibili
 ### Deployment Commands
 
 ```bash
-# Initialize the Terraform configuration
+# Step 1: Initialize the Terraform configuration
 terraform init
+```
 
-# Review changes before applying
+```bash
+# Step 2: Review changes before applying
 terraform plan
+```
 
-# Apply the configuration
+```bash
+# Step 3: Apply the configuration
 terraform apply
+```
 
-# Destroy the infrastructure when done
+```bash
+# Step 4: Destroy the infrastructure when done
 terraform destroy
 ```
 
