@@ -21,7 +21,7 @@ This project provisions a **scalable and monitored AWS infrastructure** for a dy
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-623CE4?logo=terraform)
 ![AWS](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazon-aws)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
+
 
 ---
 
