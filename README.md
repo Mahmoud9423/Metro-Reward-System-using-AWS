@@ -5,13 +5,15 @@ This project provisions a **scalable and monitored AWS infrastructure** for a dy
 
 ---
 ## 📚 Table of Contents
-1. [Key Features](#1--key-features)
-2. [Architecture Overview](#2--architecture-overview)
-3. [Terraform Infrastructure as Code](#3--terraform-infrastructure-as-code)
-4. [How to Deploy](#4--how-to-deploy)
-5. [Terraform Outputs](#5--terraform-outputs)
-6. [Monitoring and Alerts](#6--monitoring-and-alerts)
-7. [Author](#7--author)
+1. [Key Features](#key-features)
+2. [Architecture Overview](#architecture-overview)
+3. [Terraform Infrastructure as Code](#terraform-infrastructure-as-code)
+4. [How to Deploy](#how-to-deploy)
+5. [Terraform Outputs](#terraform-outputs)
+6. [Monitoring and Alerts](#monitoring-and-alerts)
+7. [Author](#author)
+
+---
 
 ## 📌 Key Features
 
