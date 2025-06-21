@@ -3,7 +3,6 @@
 This project provisions a **scalable and monitored AWS infrastructure** for a dynamic web application using **Terraform**. The architecture is designed to ensure high availability, auto-scaling, monitoring, and alerting.
 
 ---
-
 ## 📚 Table of Contents
 
 1. [Badges](#badges)  
