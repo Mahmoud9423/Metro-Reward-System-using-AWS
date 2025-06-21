@@ -4,6 +4,14 @@
 This project provisions a **scalable and monitored AWS infrastructure** for a dynamic web application using **Terraform**. The architecture is designed to ensure high availability, auto-scaling, monitoring, and alerting.
 
 ---
+## 📚 Table of Contents
+1. [Key Features](#1--key-features)
+2. [Architecture Overview](#2--architecture-overview)
+3. [Terraform Infrastructure as Code](#3--terraform-infrastructure-as-code)
+4. [How to Deploy](#4--how-to-deploy)
+5. [Terraform Outputs](#5--terraform-outputs)
+6. [Monitoring and Alerts](#6--monitoring-and-alerts)
+7. [Author](#7--author)
 
 ## 📌 Key Features
 
