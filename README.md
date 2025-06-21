@@ -12,7 +12,8 @@ This project provisions a **scalable and monitored AWS infrastructure** for a dy
 4. [Terraform Infrastructure as Code](#terraform-infrastructure-as-code)
 5. [How to Deploy](#how-to-deploy)
 6. [Monitoring and Alerts](#monitoring-and-alerts)
-7. [Author](#author)
+7. [AWS Well-Architected Framework Alignment](#-aws-well-architected-framework-alignment)
+9. [Author](#author)
 
 ---
 
@@ -103,6 +104,19 @@ terraform destroy
 - **CloudWatch Alarms** monitor key metrics like CPU usage and instance health.
 - **SNS Topics** send notifications to your configured email or phone.
 - You can customize thresholds and recipients in `main.tf`.
+
+---
+## 🏗️ AWS Well-Architected Framework Alignment
+
+This project aligns with the [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/) by addressing the five key pillars:
+
+| Pillar                  | How It’s Addressed                                                                                     |
+|-------------------------|--------------------------------------------------------------------------------------------------------|
+| **Operational Excellence** | Uses Terraform for repeatable, auditable infrastructure deployments and CloudWatch for monitoring and alerting. |
+| **Security**               | EC2 and RDS are in private subnets. IAM roles enforce least-privilege access. No public access to databases.   |
+| **Reliability**            | RDS is deployed in Multi-AZ mode, and EC2 instances are in Auto Scaling Groups across multiple Availability Zones. |
+| **Performance Efficiency** | Load balancing with ALB and dynamic scaling with ASG ensures efficient use of resources under varying load.     |
+| **Cost Optimization**      | Auto Scaling shuts down idle instances. NAT is isolated, and unnecessary public IPs are avoided. Terraform enables visibility and control of resource usage. |
 
 ---
 
