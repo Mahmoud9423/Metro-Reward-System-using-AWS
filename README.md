@@ -11,7 +11,7 @@ This project provisions a **scalable and monitored AWS infrastructure** for a dy
 4. [Terraform Infrastructure as Code](#terraform-infrastructure-as-code)  
 5. [How to Deploy](#how-to-deploy)  
 6. [Monitoring and Alerts](#monitoring-and-alerts)  
-7. [AWS Well-Architected Framework Alignment](#aws-well-architected-framework-alignment)  
+7. [AWS Well-Architected Framework Alignment](#aws-well-architected-framework-alignment)
 8. [Author](#author)
 
 ---
