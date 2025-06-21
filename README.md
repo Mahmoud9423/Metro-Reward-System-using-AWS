@@ -68,7 +68,6 @@ The entire infrastructure is defined using **Terraform**, ensuring reproducibili
 
 ---
 
-## How to Deploy
 
 ### Prerequisites
 
