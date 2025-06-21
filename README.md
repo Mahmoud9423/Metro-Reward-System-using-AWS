@@ -105,7 +105,7 @@ terraform destroy
 - You can customize thresholds and recipients in `main.tf`.
 
 ---
-## 🏗️ AWS Well-Architected Framework Alignment
+## AWS Well-Architected Framework Alignment
 
 This project aligns with the [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/) by addressing the five key pillars:
 
