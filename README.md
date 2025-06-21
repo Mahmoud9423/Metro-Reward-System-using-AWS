@@ -6,14 +6,14 @@ This project provisions a **scalable and monitored AWS infrastructure** for a dy
 
 ## 📚 Table of Contents
 
-1. [Badges](#badges)
-2. [Key Features](#key-features)
-3. [Architecture Overview](#architecture-overview)
-4. [Terraform Infrastructure as Code](#terraform-infrastructure-as-code)
-5. [How to Deploy](#how-to-deploy)
-6. [Monitoring and Alerts](#monitoring-and-alerts)
-7. [AWS Well-Architected Framework Alignment](#-aws-well-architected-framework-alignment)
-9. [Author](#author)
+1. [Badges](#badges)  
+2. [Key Features](#key-features)  
+3. [Architecture Overview](#architecture-overview)  
+4. [Terraform Infrastructure as Code](#terraform-infrastructure-as-code)  
+5. [How to Deploy](#how-to-deploy)  
+6. [Monitoring and Alerts](#monitoring-and-alerts)  
+7. [AWS Well-Architected Framework Alignment](#aws-well-architected-framework-alignment)  
+8. [Author](#author)
 
 ---
 
